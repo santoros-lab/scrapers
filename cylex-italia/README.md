@@ -49,5 +49,6 @@ cylex-italia/
 ├── requirements.txt     # dipendenze Python
 ├── risorse/
 │   └── icona.ico         # icona per l'eseguibile
+├── Scaricati/
 └── README.md
 ```
