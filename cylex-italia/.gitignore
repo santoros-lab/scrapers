@@ -1,0 +1,8 @@
+gi_comuni_cap.csv
+*.xlsx
+Scaricati/
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc

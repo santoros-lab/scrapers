@@ -1,0 +1,43 @@
+# Cylex Scraper
+
+Scraper con interfaccia grafica (Tkinter) per Cylex Italia.
+
+## Funzionalità
+- Selezione geografica Regione → Provincia → Città (o intera provincia)
+- Scarica tutte le pagine di risultati per ogni città
+- Estrae anche l'email dalla pagina di dettaglio (gestisce l'offuscamento Cloudflare Email Protection)
+- Esporta i risultati in Excel (.xlsx), ordinati alfabeticamente
+- Pulsante Stop per interrompere la ricerca in corso
+- Download automatico, al primo avvio, del database dei comuni italiani
+
+## Installazione
+```bash
+pip install -r requirements.txt
+```
+
+## Uso
+```bash
+python cylex_scraper.py
+```
+
+Al primo avvio viene scaricato automaticamente il database dei comuni italiani (`gi_comuni_cap.csv`).
+
+## Creare l'eseguibile Windows (.exe)
+Il progetto può essere compilato in un unico eseguibile con [PyInstaller](https://pyinstaller.org/):
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile --windowed --icon=risorse/icona.ico cylex_scraper.py
+```
+
+L'eseguibile verrà generato in `dist/cylex_scraper.exe`. Non è incluso nel repository per motivi di dimensione: se ti serve una build già pronta, pubblicala come Release della repo invece di versionarla nel codice sorgente.
+
+## Struttura cartella
+```
+cylex-italia/
+├── cylex_scraper.py     # codice sorgente
+├── requirements.txt     # dipendenze Python
+├── risorse/
+│   └── icona.ico         # icona per l'eseguibile
+└── README.md
+```
