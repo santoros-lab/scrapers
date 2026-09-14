@@ -26,7 +26,7 @@ Al primo avvio viene scaricato automaticamente il database dei comuni italiani (
 Durante l'uso, il programma crea alcuni file/cartelle in locale che **non fanno parte del codice sorgente** e sono esclusi tramite `.gitignore`:
 
 - **`gi_comuni_cap.csv`** — database dei comuni italiani, scaricato automaticamente al primo avvio nella cartella dell'eseguibile/script.
-- **`Scaricati/`** (o qualsiasi altra cartella tu scelga) — cartella di destinazione degli export Excel, selezionabile dall'interfaccia.
+- **`Scaricati/`** — cartella di destinazione degli export Excel, raggiungibile dall'interfaccia.
 
 Questi file vengono rigenerati automaticamente ad ogni utilizzo e non devono essere versionati.
 
