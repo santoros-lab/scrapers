@@ -7,6 +7,10 @@ Raccolta di scraper Python per l'estrazione di dati da diverse directory/siti we
 ```
 scrapers/
 └── cylex-italia/      # Scraper per Cylex Italia (aziende, contatti, email)
+    ├── cylex_scraper.py
+    ├── requirements.txt
+    ├── risorse/
+    └── README.md
 ```
 
 Ogni sottocartella contiene il proprio codice, `requirements.txt` e `README.md` con le istruzioni specifiche.
@@ -21,4 +25,4 @@ Scraper con interfaccia grafica (Tkinter) per Cylex Italia: ricerca aziende per 
 - Le dipendenze specifiche sono elencate nel `requirements.txt` di ciascun progetto.
 
 ## Licenza
-MIT (vedi [LICENSE](./LICENSE)).
+Distribuito sotto licenza MIT — vedi [LICENSE](./LICENSE).
