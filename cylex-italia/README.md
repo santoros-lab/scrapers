@@ -44,6 +44,8 @@ L'eseguibile verrà generato in `dist/cylex_scraper.exe`. Non è incluso nel rep
 ```
 cylex-italia/
 ├── cylex_scraper.py     # codice sorgente
+├── cylex_scraper.exe    # eseguibile (unsigned e rilevato come falso positivo in AVG Antivirus, ecc..)
+├── gi_comuni_cap.csv    # database comuni italiani
 ├── requirements.txt     # dipendenze Python
 ├── risorse/
 │   └── icona.ico         # icona per l'eseguibile
